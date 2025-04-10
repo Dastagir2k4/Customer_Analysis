@@ -1,0 +1,13 @@
+relationship 20e237a9-9f13-4a0f-ae24-b69416687ad6
+	joinOnDateBehavior: datePartOnly
+	fromColumn: snowball.month_roll
+	toColumn: LocalDateTable_695fc0e2-0c96-45d9-8dcb-c5203fa40fb0.Date
+
+relationship AutoDetected_0840bf84-35d6-4c03-a97a-735924d961b4
+	fromColumn: snowball.customer_key
+	toColumn: customer.customer_key
+
+relationship AutoDetected_684b0eda-95ac-46d0-b7d0-8af0dbb50025
+	fromColumn: snowball.product_key
+	toColumn: product.product_key
+

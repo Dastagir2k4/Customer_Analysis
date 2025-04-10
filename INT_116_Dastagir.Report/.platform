@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "INT_116_Dastagir"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "dd963929-15a7-4f0b-ac2d-ba41ecb96ca8"
+  }
+}

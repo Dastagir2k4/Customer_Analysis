@@ -1,0 +1,24 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["customer","product","snowball"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.141.1451.0 (25.03)+5007b75f0f7edbed506e31fcb76584cd6d711788
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table customer
+ref table product
+ref table snowball
+ref table DateTableTemplate_ec53c414-a410-4dab-8994-c6ca789a4d97
+ref table LocalDateTable_695fc0e2-0c96-45d9-8dcb-c5203fa40fb0
+
+ref cultureInfo en-US
+
